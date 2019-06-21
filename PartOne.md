@@ -37,6 +37,6 @@ To detect which buttons we are pressing on our controller we need to configure o
 
 1. Open up the Input Settings window by pressing Edit>Project Settings... In the left panel you see a label called 'Input'. Click on it. You are presented with the following window:
 
-   ![InputWindow](D:\UNITY\GITHUB\ButtonSequencer\TutorialAssets\InputWindow.PNG)
+   ![InputWindow](/TutorialAssets/InputWindow.PNG)
 
 2. In the right panel you see the label 'Size' with a number behind it. Change that number to 22 and hit the Enter key. Notice that at the bottom four labels with the word Cancel are added. They are copies of the first input that was already there. These four inputs are for the four face buttons of the Xbox Controller. 
