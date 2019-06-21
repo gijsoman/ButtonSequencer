@@ -18,9 +18,9 @@ Besides that you need a basic programming skill.
 
 - You need to know how to make a function
 
-## Jump right in
+## Part One: Set-up for one button sequence
 
-So if you got interested please click [here](PartOne.md) and go to the first part of this tutorial.
+
 
 
 
