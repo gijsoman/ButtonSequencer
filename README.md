@@ -12,7 +12,7 @@ For this tutorial there are a couple of things you need:
 
 - Unity 2018.3.7f1 or higher
 - An Xbox One Controller
-- A copy of my Unity Package which can be donwloaded here: 
+- A copy of my Unity Package which can be donwloaded here: https://github.com/gijsoman/ButtonSequencer
 
 Besides that you need a basic programming skill.
 
