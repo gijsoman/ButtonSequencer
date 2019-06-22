@@ -49,7 +49,7 @@ To detect which buttons we are pressing on our controller we need to configure o
 
 5. If you are on windows your inputs should look like this:
 
-   ![AInput](/TutorialAssets/AInput.PNG) ![BInput](/TutorialAssets\BInput.PNG) ![XInput](/TutorialAssets\XInput.PNG) ![YInput](/TutorialAssets\YInput.PNG)
+   ![AInput](/TutorialAssets/AInput.PNG) ![BInput](/TutorialAssets/BInput.PNG) ![XInput](/TutorialAssets/XInput.PNG) ![YInput](/TutorialAssets/YInput.PNG)
 
    
 
