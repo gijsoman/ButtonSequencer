@@ -51,6 +51,29 @@ To detect which buttons we are pressing on our controller we need to configure o
 
    ![AInput](/TutorialAssets/AInput.PNG) ![BInput](/TutorialAssets/BInput.PNG) ![XInput](/TutorialAssets/XInput.PNG) ![YInput](/TutorialAssets/YInput.PNG)
 
-   
+6. Now that we are all done with configuring the Input settings let's see how we can set up our first button sequence.
 
-   
+## Setting up the Button Sequence
+
+1. Since all of the prefabs in this package are created with UI elements the first thing we need to do is add a Canvas to our scene. You can do this by clicking the following buttons in the Hierarchy window: Create>UI>Canvas.
+
+![CreateCanvas](/TutorialAssets/CreateCanvas.gif)
+
+2. After creating the canvas we can drag in our first prefab. Go to the folder Assets>ButtonSequencer>Prefabs and drag ButtonSequence.prefab into the scene as a child of our just created Cavnas.![FirstPrefabInScene](/TutorialAssets/FirstPrefabInScene.PNG)
+
+   As you can see there is a little square in the middle of our screen. This is the background of our Button Sequence and will resize automatically if we hit play and our Button Sequence is set.
+
+3. Now when we hit play we have a working Button Sequence which is fully functional. You should now be able to press the buttons on your Xbox Controller and you should see the corresponding buttons disappear from the sequence. ![FirstTimePlay](/TutorialAssets/FirstTimePlay.gif)
+
+4. Now that we have a functioning Button Sequence let's check out some of the features we talked about earlier.
+
+## Features and Settings
+
+1. First we want to select the ButtonSequencePrefab in our Hierarchy.
+
+2. After doing this scroll down in your inspector window until you see a component called 'Button Sequence Script'
+
+   ![ButtonSequenceScript](/TutorialAssets/ButtonSequenceScript.PNG)
+
+   Here you can change everything of the Button Sequence.
+
