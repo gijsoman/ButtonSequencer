@@ -33,7 +33,7 @@ So previously I wrote about the 'Sequence Object' field which is currently empty
 1. Navigate to the folder Assets/SequenceObjects. Here you see a file named SequenceObject. You can ignore this file for now because we want to make our own. Right click somewhere in this folder and select Create>SequenceObject.![SequenceObjectCreation](/TutorialAssets/SequenceObjectCreation.gif)
 2. Now select the sequence object and notice that in the Inspector you can change all the settings for multiple button sequences.
 
-![SequenceObjectCreation2](/TutorialAssets/SequenceObjectCreation2.gif)
+   ![SequenceObjectCreation2](/TutorialAssets/SequenceObjectCreation2.gif)
 
 3. Now the only thing we have to do is drag this object into our Multiple Sequence Manager and it will override any settings made here. Our Multiple Sequence Manager is now using our Sequence Object.![DragginSequenceObject](/TutorialAssets/DragginSequenceObject.gif)
 
