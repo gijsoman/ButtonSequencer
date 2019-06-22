@@ -104,7 +104,7 @@ To detect which buttons we are pressing on our controller we need to configure o
 
 8. The last one is the button Width and Button height. Changing these will make your buttons bigger or smaller.
 
-So next up is using multiple button sequences. Click here to go to the next part. It will be very short because there are only minor differences.
+So next up is using multiple button sequences. Click [here](PartTwo.md) to go to the next part. It will be very short because there are only minor differences.
 
 
 
