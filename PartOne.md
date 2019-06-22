@@ -1,8 +1,14 @@
 # Part One: Setting Up A Single Button Sequence
 
-As promised we will first take a look at the end result.
+## QuickTravel
+
+[Intro](README.md)
+
+[Part Two: Using Multiple Button Sequences](PartTwo.md)
 
 ## Result
+
+As promised we will first take a look at the end result.
 
 ![](https://gijs-bakker.nl/wp-content/uploads/2019/06/122ca1d9bd7a9c5652390841dfbced9d.gif)
 

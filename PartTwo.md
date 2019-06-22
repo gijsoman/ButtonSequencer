@@ -1,8 +1,14 @@
 # Part Two: Using Multiple Button Sequences
 
-First let's look at the end result again.
+## QuickTravel
+
+[Part One: Setting Up A Single Button Sequence](PartOne.md)
+
+[Intro](README.md)
 
 ## Result
+
+First let's look at the end result again.
 
 ![MultipleSequences](/TutorialAssets/MultipleSequences.gif)
 
