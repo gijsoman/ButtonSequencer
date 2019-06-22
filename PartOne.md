@@ -57,7 +57,7 @@ To detect which buttons we are pressing on our controller we need to configure o
 
 1. Since all of the prefabs in this package are created with UI elements the first thing we need to do is add a Canvas to our scene. You can do this by clicking the following buttons in the Hierarchy window: Create>UI>Canvas.
 
-![CreateCanvas](/TutorialAssets/CreateCanvas.gif)
+   ![CreateCanvas](/TutorialAssets/CreateCanvas.gif)
 
 2. After creating the canvas we can drag in our first prefab. Go to the folder Assets>ButtonSequencer>Prefabs and drag ButtonSequence.prefab into the scene as a child of our just created Cavnas.![FirstPrefabInScene](/TutorialAssets/FirstPrefabInScene.PNG)
 
