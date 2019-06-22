@@ -22,7 +22,7 @@ So there's not much difference from using multiple Button sequences than just us
 
 5. You are presented with the following:
 
-![ExpandedMultipleSequences](/TutorialAssets/ExpandedMultipleSequences.PNG)
+   ![ExpandedMultipleSequences](/TutorialAssets/ExpandedMultipleSequences.PNG)
 
 If you have followed the first part of this tutorial this should look pretty familiar. If you haven't and this looks unfamiliar to you please follow the first part of this tutorial. I won't go over the settings of a single sequence again since they work exactly the same. The only thing that is different is that you can set the amount of Button sequences you want by changing the number behind 'Size'. I would highly recommend just experimenting with the settings and if you need anything specific you can take a look at the first part of the tutorial again. There is one thing we didn't have in the first part though. Let's take a look at this.
 
