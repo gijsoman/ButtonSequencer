@@ -96,15 +96,15 @@ To detect which buttons we are pressing on our controller we need to configure o
 
 5. After setting up our sequence we want to do something when the user completed the sequence. For this tutorial we are going to log a message to the console. Please select your main camera in the Hierarchy and add the component called 'LogCompletion' to it.
 
-![LogCompletion](/TutorialAssets/LogCompletion.gif)
+   ![LogCompletion](/TutorialAssets/LogCompletion.gif)
 
-1. Now we can select our ButtonSequencePrefab in the Hierarchy again and scroll down to the On Sequence Completed event of the Button Sequence Script in the Inspector. Here you want to press the '+' button to add a new entry. Notice a field that says 'None (Object)'. We want to drag our main camera from the hierarchy into this field and select  a function called YouWon(). This function will be fired after completing the Button Sequence. ![AddEvent](/TutorialAssets/AddEvent.gif)
+6. Now we can select our ButtonSequencePrefab in the Hierarchy again and scroll down to the On Sequence Completed event of the Button Sequence Script in the Inspector. Here you want to press the '+' button to add a new entry. Notice a field that says 'None (Object)'. We want to drag our main camera from the hierarchy into this field and select  a function called YouWon(). This function will be fired after completing the Button Sequence. ![AddEvent](/TutorialAssets/AddEvent.gif)
 
    After doing this a message should be logged to the console after completing the button sequence. Just like the example at the beginning of this tutorial. ![](https://gijs-bakker.nl/wp-content/uploads/2019/06/122ca1d9bd7a9c5652390841dfbced9d.gif)
 
-2. There are still two small features to be explained. The first feature is the Pressed Buttons list. Here you can see which buttons the player has pressed. This comes for debugging if you decide to expand on this tool.
+7. There are still two small features to be explained. The first feature is the Pressed Buttons list. Here you can see which buttons the player has pressed. This comes for debugging if you decide to expand on this tool.
 
-3. The last one is the button Width and Button height. Changing these will make your buttons bigger or smaller.
+8. The last one is the button Width and Button height. Changing these will make your buttons bigger or smaller.
 
 So next up is using multiple button sequences. Click [here](PartTwo.md) to go to the next part. It will be very short because there are only minor differences.
 
