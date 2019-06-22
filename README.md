@@ -18,9 +18,11 @@ Besides that you need a basic programming skill.
 
 - You need to know how to make a function
 
-## Jump right in
+## QuickTravel
 
-So if you got interested please click [here](PartOne.md) and go to the first part of this tutorial.
+[Part One: Setting Up A Single Button Sequence](PartOne.md)
+
+[Part Two: Using Multiple Button Sequences](PartTwo.md)
 
 
 
