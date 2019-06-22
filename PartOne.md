@@ -51,11 +51,11 @@ To detect which buttons we are pressing on our controller we need to configure o
 
    ![AddedA](/TutorialAssets/AddedA.PNG)
 
-4. For the rest of the buttons you can do the same thing with the rest of the cancel copies. Notice how I used 'joystick button 0' for the A button. This however only works for windows. To see what joystick buttons you need for the rest of your buttons and for your operating system please follow this link: https://wiki.unity3d.com/index.php/Xbox360Controller
-
-5. If you are on windows your inputs should look like this:
+4. For the rest of the buttons you can do the same thing with the rest of the cancel copies. See the results here:
 
    ![AInput](/TutorialAssets/AInput.PNG) ![BInput](/TutorialAssets/BInput.PNG) ![XInput](/TutorialAssets/XInput.PNG) ![YInput](/TutorialAssets/YInput.PNG)
+
+5. Notice how I used 'joystick button 0' for the A button. This however only works for windows. To see what joystick buttons you need for the rest of your buttons and for your operating system please follow this link: https://wiki.unity3d.com/index.php/Xbox360Controller
 
 6. Now that we are all done with configuring the Input settings let's see how we can set up our first button sequence.
 
@@ -90,15 +90,15 @@ To detect which buttons we are pressing on our controller we need to configure o
    - Resetting Sequences Allowed: Allows the Button Sequence to be reset when a wrong button is pressed or a timer ended. 
    - Use Random Buttons: One of my personally most used features. With this you don't have to set each button of the sequence yourself. It generates some random buttons for you.
    - Sequence Timer Allowed: Enables a timer within which the sequence has to be completed by the user. You also want to set the 'Sequence Time' for this feature to work properly. If the timer ends the Sequence resets. Resetting Sequences Allowed has to be enabled for this.
-   - Button Timers Allowed: A quick setting that changes the 'Timer Allowed' checkbox for each button. You can still uncheck the buttons you don't want to have a timer. Resetting Sequences Allowed needs to be checked if you are using Button Timers for proper functionality.
+   
 
-   Then there is a list of the Buttons in our sequence called 'Buttons In Sequence'. We will come back to this later.
+Then there is a list of the Buttons in our sequence called 'Buttons In Sequence'. We will come back to this later.
 
-   At last you see and event called 'On Sequence Completed'. Here you can add your own functions which are called after the sequence is completed. We will also come back to this later.
+At last you see and event called 'On Sequence Completed'. Here you can add your own functions which are called after the sequence is completed. We will also come back to this later.
 
 4. Now let's expand 'Buttons In Sequence' and all of it's elements. You should see the following: ![ButtonsInSequence](/TutorialAssets/ButtonsInSequence.PNG)
 
-   The most important setting here is the Size for the amount of buttons you get in this sequence. If you use Random Buttons you wont have to do much here. However you can set each button manually from the dropdown and you can set a time for each button within which it has to be pressed. Please note that if you want these timers to work properly you have to enable 'Resetting Sequences Allowed' by hand.
+   The most important setting here is the Size for the amount of buttons you get in this sequence. If you use Random Buttons you wont have to do much here. However you can set each button manually from the dropdown and you can set a time for each button within which it has to be pressed. Resetting Sequences Allowed is checked automatically.
 
 5. After setting up our sequence we want to do something when the user completed the sequence. For this tutorial we are going to log a message to the console. Please select your main camera in the Hierarchy and add the component called 'LogCompletion' to it.
 
