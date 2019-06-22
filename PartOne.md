@@ -39,4 +39,18 @@ To detect which buttons we are pressing on our controller we need to configure o
 
    ![InputWindow](/TutorialAssets/InputWindow.PNG)
 
-2. In the right panel you see the label 'Size' with a number behind it. Change that number to 22 and hit the Enter key. Notice that at the bottom four labels with the word Cancel are added. They are copies of the first input that was already there. These four inputs are for the four face buttons of the Xbox Controller. 
+2. In the right panel you see the label 'Size' with a number behind it. Change that number to 22 and hit the Enter key. Notice that at the bottom four labels with the word Cancel are added. They are copies of the first input that was already there. These four inputs are for the four face buttons of the Xbox Controller we are going to add.
+
+3. Now we want to add the following buttons: A,X,Y,B. In the example image below I added the A button as an input. Use one of the just created cancel copies for this.
+
+   ![AddedA](/TutorialAssets/AddedA.PNG)
+
+4. For the rest of the buttons you can do the same thing with the rest of the cancel copies. Notice how I used 'joystick button 0' for the A button. This however only works for windows. To see what joystick buttons you need for the rest of your buttons and for your operating system please follow this link: https://wiki.unity3d.com/index.php/Xbox360Controller
+
+5. If you are on windows your inputs should look like this:
+
+   ![AInput](/TutorialAssets/AInput.PNG) ![BInput](D:\UNITY\GITHUB\ButtonSequencer\TutorialAssets\BInput.PNG) ![XInput](D:\UNITY\GITHUB\ButtonSequencer\TutorialAssets\XInput.PNG) ![YInput](D:\UNITY\GITHUB\ButtonSequencer\TutorialAssets\YInput.PNG)
+
+   
+
+   
