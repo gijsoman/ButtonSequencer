@@ -77,3 +77,40 @@ To detect which buttons we are pressing on our controller we need to configure o
 
    Here you can change everything of the Button Sequence.
 
+3. So the first thing we want to check out is the Button Sequence itself. Expand the Button Sequence by clicking the small arrow next to it and let's see what is in there.![ButtonSequenceExpanded](/TutorialAssets/ButtonSequenceExpanded.PNG)
+
+   The first for checkboxes are pretty self explanatory but let's go over each one.
+
+   - Resetting Sequences Allowed: Allows the Button Sequence to be reset when a wrong button is pressed or a timer ended. 
+   - Use Random Buttons: One of my personally most used features. With this you don't have to set each button of the sequence yourself. It generates some random buttons for you.
+   - Sequence Timer Allowed: Enables a timer within which the sequence has to be completed by the user. You also want to set the 'Sequence Time' for this feature to work properly. If the timer ends the Sequence resets. Resetting Sequences Allowed has to be enabled for this.
+   - Button Timers Allowed: A quick setting that changes the 'Timer Allowed' checkbox for each button. You can still uncheck the buttons you don't want to have a timer. Resetting Sequences Allowed needs to be checked if you are using Button Timers for proper functionality.
+
+   Then there is a list of the Buttons in our sequence called 'Buttons In Sequence'. We will come back to this later.
+
+   At last you see and event called 'On Sequence Completed'. Here you can add your own functions which are called after the sequence is completed. We will also come back to this later.
+
+4. Now let's expand 'Buttons In Sequence' and all of it's elements. You should see the following: ![ButtonsInSequence](/TutorialAssets/ButtonsInSequence.PNG)
+
+   The most important setting here is the Size for the amount of buttons you get in this sequence. If you use Random Buttons you wont have to do much here. However you can set each button manually from the dropdown and you can set a time for each button within which it has to be pressed. Please note that if you want these timers to work properly you have to enable 'Resetting Sequences Allowed' by hand.
+
+5. After setting up our sequence we want to do something when the user completed the sequence. For this tutorial we are going to log a message to the console. Please select your main camera in the Hierarchy and add the component called 'LogCompletion' to it.![LogCompletion](/TutorialAssets/LogCompletion.gif)
+
+6. Now we can select our ButtonSequencePrefab in the Hierarchy again and scroll down to the On Sequence Completed event of the Button Sequence Script in the Inspector. Here you want to press the '+' button to add a new entry. Notice a field that says 'None (Object)'. We want to drag our main camera from the hierarchy into this field and select  a function called YouWon(). This function will be fired after completing the Button Sequence. ![AddEvent](/TutorialAssets/AddEvent.gif)
+
+   After doing this a message should be logged to the console after completing the button sequence. Just like the example at the beginning of this tutorial. ![](https://gijs-bakker.nl/wp-content/uploads/2019/06/122ca1d9bd7a9c5652390841dfbced9d.gif)
+
+7. There are still two small features to be explained. The first feature is the Pressed Buttons list. Here you can see which buttons the player has pressed. This comes for debugging if you decide to expand on this tool.
+
+8. The last one is the button Width and Button height. Changing these will make your buttons bigger or smaller.
+
+So next up is using multiple button sequences. Click here to go to the next part. It will be very short because there are only minor differences.
+
+
+
+
+
+
+
+
+
